@@ -1,8 +1,8 @@
 # youtube-dl-og
 
 [![npm version](https://img.shields.io/npm/v/youtube-dl-og.svg)](https://www.npmjs.com/package/youtube-dl-og)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/npm/dt/youtube-dl-og.svg)](https://www.npmjs.com/package/youtube-dl-og)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)<br/><br/>
+[![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express&perline=12)](https://skillicons.dev)
 
 A powerful and easy-to-use Node.js package for downloading YouTube videos in multiple quality levels.
 
