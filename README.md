@@ -1,30 +1,30 @@
-# youtube-dl-og
+# 🎬 youtube-dl-og
 
 [![npm version](https://img.shields.io/npm/v/youtube-dl-og.svg)](https://www.npmjs.com/package/youtube-dl-og)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)<br/><br/>
 [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express&perline=12)](https://skillicons.dev)
 
-A powerful and easy-to-use Node.js package for downloading YouTube videos in multiple quality levels.
+🚀 A powerful and easy-to-use Node.js package for downloading YouTube videos in multiple quality levels.
 
-## Table of Contents
+## 📋 Table of Contents
 
-- [Installation](#installation)
-- [Features](#features)
-- [Usage](#usage)
-  - [Basic Usage](#basic-usage)
-  - [Download with Progress Tracking](#download-with-progress-tracking)
-  - [Downloading Videos in Specific HD Quality](#downloading-videos-in-specific-hd-quality-720p-1080p)
-  - [Downloading Videos in Multiple Quality Levels](#downloading-videos-in-multiple-quality-levels)
-  - [Downloading Audio Only](#downloading-audio-only)
-  - [Getting Video Information](#getting-video-information)
-  - [Validating YouTube URLs](#validating-youtube-urls)
-- [API Reference](#api-reference)
-- [Requirements](#requirements)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+- [📥 Installation](#installation)
+- [✨ Features](#features)
+- [🔍 Usage](#usage)
+  - [🏁 Basic Usage](#basic-usage)
+  - [📊 Download with Progress Tracking](#download-with-progress-tracking)
+  - [🎥 Downloading Videos in Specific HD Quality](#downloading-videos-in-specific-hd-quality-720p-1080p)
+  - [📚 Downloading Videos in Multiple Quality Levels](#downloading-videos-in-multiple-quality-levels)
+  - [🎵 Downloading Audio Only](#downloading-audio-only)
+  - [ℹ️ Getting Video Information](#getting-video-information)
+  - [✅ Validating YouTube URLs](#validating-youtube-urls)
+- [📘 API Reference](#api-reference)
+- [⚙️ Requirements](#requirements)
+- [📦 Dependencies](#dependencies)
+- [🤝 Contributing](#contributing)
+- [📜 License](#license)
 
-## Installation
+## 📥 Installation
 
 ```bash
 # Install via npm
@@ -37,20 +37,20 @@ yarn add youtube-dl-og
 pnpm add youtube-dl-og
 ```
 
-## Features
+## ✨ Features
 
-- Download YouTube videos in various formats and qualities
-- Download videos in specific quality levels (144p, 360p, 720p, 1080p, 4K)
-- Download multiple quality versions of a video in a single command
-- Download audio-only streams
-- Real-time download progress tracking
-- Get detailed information about YouTube videos
-- Validate YouTube URLs
-- Built-in error handling and fallback mechanisms
+- 🎥 Download YouTube videos in various formats and qualities
+- 📊 Download videos in specific quality levels (144p, 360p, 720p, 1080p, 4K)
+- 📚 Download multiple quality versions of a video in a single command
+- 🎵 Download audio-only streams
+- 📈 Real-time download progress tracking
+- ℹ️ Get detailed information about YouTube videos
+- ✅ Validate YouTube URLs
+- 🛡️ Built-in error handling and fallback mechanisms
 
 ## Usage
 
-### Basic Usage
+### 🏁 Basic Usage
 
 ```javascript
 const ytDownloader = require('youtube-dl-og');
@@ -68,7 +68,7 @@ ytDownloader.downloadVideo('https://www.youtube.com/watch?v=VIDEO_ID', {
 });
 ```
 
-### Download with Progress Tracking
+### 📊 Download with Progress Tracking
 
 ```javascript
 const ytDownloader = require('youtube-dl-og');
@@ -102,7 +102,7 @@ ytDownloader.downloadVideo('https://www.youtube.com/watch?v=VIDEO_ID', {
 });
 ```
 
-### Downloading Videos in Specific HD Quality (720p, 1080p)
+### 🎥 Downloading Videos in Specific HD Quality (720p, 1080p)
 
 ```javascript
 const ytDownloader = require('youtube-dl-og');
@@ -128,7 +128,7 @@ ytDownloader.downloadVideo('https://www.youtube.com/watch?v=VIDEO_ID', {
 });
 ```
 
-### Downloading Videos in Multiple Quality Levels
+### 📚 Downloading Videos in Multiple Quality Levels
 
 ```javascript
 const ytDownloader = require('youtube-dl-og');
@@ -163,7 +163,7 @@ ytDownloader.downloadAllQualities('https://www.youtube.com/watch?v=VIDEO_ID', {
 });
 ```
 
-### Downloading Audio Only
+### 🎵 Downloading Audio Only
 
 ```javascript
 ytDownloader.downloadVideo('https://www.youtube.com/watch?v=VIDEO_ID', {
@@ -179,7 +179,7 @@ ytDownloader.downloadVideo('https://www.youtube.com/watch?v=VIDEO_ID', {
 });
 ```
 
-### Getting Video Information
+### ℹ️ Getting Video Information
 
 ```javascript
 ytDownloader.getVideoInfo('https://www.youtube.com/watch?v=VIDEO_ID')
@@ -206,14 +206,14 @@ ytDownloader.getVideoInfo('https://www.youtube.com/watch?v=VIDEO_ID')
 });
 ```
 
-### Validating YouTube URLs
+### ✅ Validating YouTube URLs
 
 ```javascript
 const isValid = ytDownloader.isValidYoutubeUrl('https://www.youtube.com/watch?v=VIDEO_ID');
 console.log('Is valid YouTube URL:', isValid); // true
 ```
 
-## API Reference
+## 📘 API Reference
 
 ### downloadVideo(url, options)
 
@@ -299,18 +299,18 @@ When using the `showProgress` option or `onProgress` callback, you'll receive pr
 - `downloadSpeed` (number): Download speed in KB/s
 - `eta` (number): Estimated time remaining in seconds
 
-## Requirements
+## ⚙️ Requirements
 
 - Node.js >= 14.0.0
 
-## Dependencies
+## 📦 Dependencies
 
 - ytdl-core: Core library for YouTube video downloading
 - youtube-dl-exec: Provides robust fallback downloading capabilities
 - ffmpeg-static: For audio extraction and format conversion
 - progress: For displaying download progress bars in the terminal
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -334,7 +334,7 @@ npm install
 npm test
 ```
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
