@@ -1,6 +1,6 @@
 {
   "name": "youtube-dl-og",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful YouTube video downloader and audio converter package with support for multiple quality levels",
   "main": "index.js",
   "scripts": {
@@ -33,15 +33,14 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  },
-  "repository": {
+  },  "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/youtube-dl-og.git"
+    "url": "git+https://github.com/PasinduOG/youtube-dl-og.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/youtube-dl-og/issues"
+    "url": "https://github.com/PasinduOG/youtube-dl-og/issues"
   },
-  "homepage": "https://github.com/yourusername/youtube-dl-og#readme",
+  "homepage": "https://github.com/PasinduOG/youtube-dl-og#readme",
   "files": [
     "index.js",
     "README.md",
